@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url("/asset/img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.logo-bar img {
+  width: 100px;
+}
+.logo-bar {
+  /* position: absolute; */
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #5cb47a;
+  width: 100%;
+  margin-top: 420px;
+}
+.logo-name {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  color: white;
+}
+.hero {
+  background: whitesmoke;
+  width: 100%;
+  padding: 60px 20px 30px 20px;
+}
+.hero-name {
+}
+form {
+  background: white;
+  padding: 20px;
+  text-align: center;
+}
+label {
+  text-transform: uppercase;
+}
+.label-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+}
+.row {
+  display: flex;
+  gap: 40px;
+}
+.rows {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+footer {
+  padding: 10px 20px;
+}
+input {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+footer {
+  background: whitesmoke;
+  text-align: center;
+  padding-top: 20px;
+}
+button {
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  background: mediumseagreen;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: mediumseagreen;
+}
+footer p {
+  margin-top: 20px;
+}
+input:focus {
+  border-color: blue;
+  /* box-shadow: inset hoff voff blur #000; */
+}
+.form-title {
+  font-size: 36px;
+  font-weight: 800;
+}
